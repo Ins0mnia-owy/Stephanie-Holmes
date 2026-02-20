@@ -1,0 +1,58 @@
+.awards__inner {
+    background: var(--lavender-mist);
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+.awards__title {
+    font-weight: 500;
+    font-size: 50px;
+    letter-spacing: -2%;
+    margin: 0px;
+}
+
+.awards__list {
+    width: 50%;
+}
+
+.awards__links {
+    border-top: 1px solid var(--midnight-pulse);
+    padding: 0px;
+}
+
+.awards__link {
+    border-bottom: 1px solid var(--midnight-pulse);
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.awards__big-text {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 160%;
+}
+
+.awards__big-text--hover {
+    color: var(--deep-void);
+    transition: color .3s;
+
+    &:hover {
+        color: var(--urban-ash);
+        transition: color .2s;
+    }
+}
+
+.awards__small-text {
+    font-size: 14px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: var(--deep-void);
+}
+
+.awards_svg {
+    margin-top: 10px;
+}

@@ -1,0 +1,17 @@
+/* базовые стили */
+@import 'basic/_reset.css';
+@import 'basic/_fonts.css';
+@import 'basic/_vars.css';
+@import 'basic/_global.css';
+
+/* компоненты */
+@import 'components/_btn.css';
+@import 'components/_header.css';
+@import 'components/_footer.css';
+@import 'components/_button.css';
+
+/* домашняя страница */
+@import 'home/_main.css';
+@import 'home/_cards.css';
+@import 'home/_case-study.css';
+@import 'home/_awards.css';

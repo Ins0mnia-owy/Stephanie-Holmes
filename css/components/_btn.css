@@ -1,0 +1,50 @@
+
+.btn {
+    padding: 10px 14px;
+    border-radius: 19px;
+    border: 1px solid;
+}
+
+.card__btn {
+    border-radius: 60px;
+    font-size: 14px;
+}
+
+.header__btn--hover {
+    border-color: #8338EC;
+    transition: border-color .2s;
+    &:hover {
+        border-color: #B923FF;
+        transition: border-color .2s;
+    }
+}
+
+.card__btn--glow {
+    background: var(--lavender-mist);
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+}
+
+.card__btn--black {
+    background: var(--royal-night);
+}
+
+.card__btn--black-hover {
+    border-color: #8338EC;
+    transition: border-color .2s;
+}
+.card__btn--black-hover:hover {
+    border-color: #B923FF;
+    transition: border-color .2s;
+}
+
+.card__btn--hover {
+    box-shadow: 0 0 20px 0 rgba(163, 45, 247, 0.3);
+    transition: box-shadow .2s;
+    &:hover {
+        box-shadow: 0 0 20px 0 rgba(206, 46, 255, 0.45);
+        transition: box-shadow .2s;
+    }
+}
