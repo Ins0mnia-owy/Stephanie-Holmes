@@ -43,7 +43,7 @@
     display: flex;
     justify-self: center;
     width: 134px;
-    height: 134px;
+    height: auto;
 }
 
 .footer__title {
@@ -63,4 +63,9 @@
     color: var(--lavender-mist);
     font-size: 14px;
     line-height: 160%;
+}
+
+.img-link {
+    width: 134px;
+    justify-self: center;
 }
